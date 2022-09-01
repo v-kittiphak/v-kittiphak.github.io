@@ -15,29 +15,26 @@ body {
 
 .leftmenu {
     background-color: #181818;
-    width: 15%;
+    width: 12%;
     display: flex;
     flex-direction: column;
 }
 
 .mainmenu {
     background-color: transparent;
-    width: 74%;
-    margin-left: 2%;
-    padding-top: 3%;
+    width: 82%;
+    margin-left: 0;
+    padding-top: 0;
 }
 
 .rightmenu {
     background-color: #181818;
-    width: 8%;
-    margin-left: 2%;
+    width: 6%;
+    margin: 0;
 }
 
 .profile {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-bottom: 30px;
+    margin-top: 10%;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -49,9 +46,9 @@ body {
 }
 
 .profile>img {
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
 }
 
 .profile>span,
@@ -89,24 +86,23 @@ b {
 
 .leftsize {
     background-color: black;
-    color: white;
-    font-size: 20px;
+    color: rgba(255, 255, 255, 0.541);
+    font-size: .8em;
     text-align: start;
-    padding-bottom: 5px;
 }
 
 .rightsize {
-    font-size: 20px;
+    font-size: .8em;
     background-color: black;
     color: white;
 }
 
 .about {
     background-color: black;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
+    padding-bottom: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
     /* border-bottom: 5px solid rgb(6, 62, 116); */
 }
 
@@ -114,28 +110,28 @@ b {
     background-color: black;
     display: flex;
     justify-content: space-between;
-    margin-top: 8px;
+    margin-top: 10%;
 }
 
 .languages {
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 30px;
+    padding-bottom: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
     /* border-bottom: 5px solid rgb(6, 62, 116); */
 }
 
 .languages,
 .languages>div {
-    font-size: 20px;
+    font-size: 1em;
     font-weight: bold;
     background-color: black;
-    color: rgb(104, 104, 108);
+    color: whitesmoke;
 }
 
 .headlanguages {
     /* margin-top: 20px; */
-    margin-bottom: 5px;
+    margin-bottom: 5%;
 }
 
 .alignlanguages {
@@ -144,11 +140,11 @@ b {
 }
 
 .sublanguages {
-    font-size: 20px;
+    font-size: .8em;
     font-weight: normal;
     background-color: black;
-    margin-bottom: 5px;
-    margin-top: 10px;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .sublanguages:hover {
@@ -157,24 +153,24 @@ b {
 }
 
 .skill {
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 30px;
+    padding-bottom: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
     /* border-bottom: 5px solid rgb(6, 62, 116); */
-    color: rgb(104, 104, 108);
+    color: whitesmoke;
 }
 
 .skill,
 .skill>div {
-    font-size: 20px;
+    font-size: 1em;
     font-weight: bold;
     background-color: black;
 }
 
 .headskill {
     /* margin-top: 20px; */
-    margin-bottom: 5px;
+    margin-bottom: 5%;
 }
 
 .alignskill {
@@ -183,11 +179,11 @@ b {
 }
 
 .subskill {
-    font-size: 20px;
+    font-size: .8em;
     font-weight: normal;
     background-color: black;
-    margin-bottom: 5px;
-    margin-top: 10px;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .subskill:hover {
@@ -240,90 +236,84 @@ b {
     background-color: #181818;
     padding-top: 15%;
     padding-bottom: 30px;
+
 }
 
 .buttoncv>div {
     background-color: black;
-    border: 5px solid rgb(8, 253, 216);
+    border: .4em solid rgb(8, 253, 216);
     border-color: rgb(8, 253, 216) rgb(8, 253, 216) black black;
-    margin: 0 14%;
+    margin: 0 8%;
 
 }
 
 .btcv {
     background-color: #181818;
     color: white;
-    padding: 10px 20px;
+    line-height: 1.5em;
+    padding: 5% 13%;
     font-weight: bold;
-    font-size: 20px;
+    font-size: .8em;
     cursor: pointer;
     border-collapse: separate;
-    border: 9px solid #FF4655;
+    border: .4em solid #FF4655;
 }
 
 @keyframes btcv {
     0% {
         background-color: #181818;
         color: white;
-        padding: 10px 20px;
-        font-weight: bold;
-        font-size: 20px;
-        cursor: pointer;
         border-collapse: separate;
-        border: 9px solid #FF4655;
+        border: .5em solid #FF4655;
     }
 
     50% {
         background-color: #181818;
         color: #FF4655;
-        padding: 10px 20px;
-        font-weight: bold;
-        font-size: 20px;
-        cursor: pointer;
         border-collapse: separate;
-        border: 9px solid #FF4655;
+        border: .5em solid #FF4655;
     }
 
     100% {
         background-color: #181818;
         color: rgb(8, 253, 216);
-        padding: 10px 20px;
-        font-weight: bold;
-        font-size: 20px;
-        cursor: pointer;
         border-collapse: separate;
-        border: 9px solid #FF4655;
+        border: .5em solid #FF4655;
     }
 }
 
 .btcv:hover {
     /* transition: 0.3s ease-out all; */
-    animation: btcv .8s linear 0s infinite alternate;
+    animation: btcv .5s linear 0s infinite alternate;
 }
 
 .firstmm {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     background-color: rgb(29, 29, 29);
+    padding-left: 5%;
+    padding-top: 3%;
+    background-image: url(/v-kittiphak.github.io/portfoliopic/bg.png);
 }
 
 .firstmm>img {
-    width: 400px;
+    width: 30%;
     margin-top: 0;
+    background-image: url(/v-kittiphak.github.io/portfoliopic/profile.png);
 }
 
 .textfirstmm {
     display: flex;
     flex-direction: column;
-    margin: 100px 0;
+    margin: 13% 0;
     background-color: transparent;
+
 }
 
 .nametextfirstmm {
-    font-size: 100px;
+    font-size: 4em;
     font-weight: bold;
-    line-height: 110px;
+    line-height: 1em;
     width: 100%;
     background-color: transparent;
     color: white;
@@ -334,20 +324,20 @@ b {
 .namethree:hover {
     color: #FF4655;
     transition: .5s ease-out;
-    font-size: 100px;
+    font-size: 1em;
 }
 
 .nametwo:hover {
     color: rgb(8, 253, 216);
     transition: .5s ease-out;
-    font-size: 100px;
+    font-size: 1em;
     animation: animatext .8s ease-in 0s 1 normal;
 }
 
 .namefour:hover {
     color: rgb(8, 253, 216);
     transition: color 1s linear 0s;
-    font-size: 100px;
+    font-size: 1em;
 }
 
 @keyframes animatext {
@@ -398,9 +388,9 @@ b {
 }
 
 .detailtextfirstmm {
-    width: 500px;
-    font-size: 25px;
-    line-height: 40px;
+    width: 70%;
+    font-size: 1.5em;
+    line-height: 1em;
     font-weight: bold;
     color: #8d8d8d;
     background-color: transparent;
@@ -409,24 +399,26 @@ b {
 }
 
 .bthire {
-    font-size: 20px;
-    letter-spacing: 4px;
+    font-size: 1em;
+    letter-spacing: .5em;
     margin-top: 5%;
     margin-bottom: 20%;
+    padding-top: 5%;
     width: 100%;
     max-width: 300px;
-    height: 60px;
+    height: 3em;
     text-align: center;
     color: rgb(8, 253, 216);
     cursor: pointer;
     border: 1px solid rgb(8, 253, 216);
+    text-decoration: none;
     /* transition-duration: 1s; */
 }
 
 .bthire:hover {
     background-color: rgb(8, 253, 216);
     color: rgb(29, 29, 29);
-    font-size: 30px;
+    font-size: 2em;
     /* transform: translate(100px, 0);
     transform-style: initial; */
     animation: bthire 1s linear 0s infinite alternate;
@@ -435,12 +427,14 @@ b {
 
 @keyframes bthire {
     0% {
-        font-size: 20px;
-        letter-spacing: 4px;
-        margin-top: 20px;
+        font-size: 1em;
+        letter-spacing: .5em;
+        margin-top: 5%;
+        margin-bottom: 20%;
+        padding-top: 5%;
         width: 100%;
         max-width: 300px;
-        height: 60px;
+        height: 3em;
         text-align: center;
         color: rgb(8, 253, 216);
         cursor: pointer;
@@ -451,7 +445,8 @@ b {
     50% {
         background-color: rgb(8, 253, 216);
         color: rgb(29, 29, 29);
-        font-size: 30px;
+        padding-top: 5%;
+        font-size: 1em;
         font-weight: bold;
         transform: translate(100px, 0);
     }
@@ -459,7 +454,8 @@ b {
     100% {
         background-color: rgb(8, 253, 216);
         color: rgb(29, 29, 29);
-        font-size: 30px;
+        padding-top: 10%;
+        font-size: 1.2em;
         font-weight: bold;
         transform: translate(0, 0);
     }
@@ -467,7 +463,7 @@ b {
 
 .maineducation {
     color: white;
-    font-size: 80px;
+    font-size: 3em;
     font-weight: bold;
     width: 100%;
     background-color: transparent;
@@ -479,7 +475,7 @@ b {
 
 
 .maineducation::first-letter {
-    font-size: 150px;
+    font-size: 2em;
     color: rgb(8, 253, 216);
 }
 
@@ -491,7 +487,7 @@ b {
 .mmtc,
 .acl {
     color: white;
-    font-size: 20px;
+    font-size: 1em;
     line-height: 100%;
     margin-left: 10%;
     display: flex;
@@ -504,8 +500,8 @@ b {
 
 .mmtc img,
 .acl img {
-    max-width: 175px;
-    max-height: 175px;
+    max-width: 150px;
+    max-height: 150px;
     background-color: white;
     border-radius: 30px;
     opacity: .5;
@@ -529,14 +525,14 @@ b {
 .acl a {
     text-decoration: none;
     color: #FF4655;
-    letter-spacing: 5px;
+    letter-spacing: 1em;
     font-style: italic;
 }
 
 .mmtc>div a span,
 .acl>div a span {
     text-decoration: none;
-    letter-spacing: 5px;
+    letter-spacing: 1em;
     color: white;
     font-style: normal;
 }
@@ -554,18 +550,18 @@ b {
 
 .mainexperience {
     color: white;
-    font-size: 80px;
+    font-size: 3em;
     font-weight: bold;
     width: 100%;
     background-color: transparent;
-    margin-top: 10%;
+    margin-top: 2%;
     letter-spacing: 20px;
     /* font-style: oblique; */
     font-family: 'Patrick Hand', cursive;
 }
 
 .mainexperience::first-letter {
-    font-size: 150px;
+    font-size: 2em;
     color: rgb(8, 253, 216);
 }
 
@@ -578,7 +574,7 @@ b {
     display: flex;
     flex-direction: column;
     color: white;
-    font-size: 20px;
+    font-size: 1em;
     letter-spacing: 5px;
     margin-top: 3%;
 }
@@ -606,7 +602,7 @@ b {
 
 .textportfolio {
     color: white;
-    font-size: 80px;
+    font-size: 3em;
     font-weight: bold;
     width: 100%;
     background-color: transparent;
@@ -623,13 +619,13 @@ b {
 
 .m,
 .p {
-    font-size: 150px;
+    font-size: 2em;
     color: rgb(8, 253, 216);
 }
 
 .describe {
     color: #b3b3b3;
-    font-size: 20px;
+    font-size: 1em;
     margin-left: 8%;
     margin-top: 3%;
     width: 50%;
@@ -680,7 +676,7 @@ b {
 
 .contactme {
     color: white;
-    font-size: 80px;
+    font-size: 3em;
     font-weight: bold;
     width: 100%;
     background-color: transparent;
@@ -691,7 +687,7 @@ b {
 }
 
 .contactme::first-letter {
-    font-size: 150px;
+    font-size: 2em;
     color: rgb(8, 253, 216);
 }
 
@@ -773,4 +769,71 @@ form :focus {
     background-color: rgb(8, 253, 216);
     color: rgb(29, 29, 29);
     transition: background-color .5s ease-in 0s;
+}
+
+.navmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: #181818;
+    position: fixed
+}
+
+.menu:first-child {
+    border-top: .2em solid rgb(29, 29, 29);
+    background-color: #181818;
+}
+
+.menu {
+    color: #8d8d8d;
+    border-bottom: .2em solid rgb(29, 29, 29);
+    background-color: #181818;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 1em;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+.menu a:hover {
+    color: rgb(8, 253, 216);
+}
+
+.contactrightmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #181818;
+    text-align: center;
+}
+
+.contactrightmenulogo {
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 30%;
+    padding: .5em .5em;
+    margin: .5em 2em;
+}
+
+.contactrightmenu>a>svg {
+    border-radius: 50%;
+}
+
+.contactrightmenulogo:first-child {
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 30%;
+    padding: .5em .5em;
+    margin: .5em 2em;
+    margin-top: 3em;
+}
+
+.contactrightmenulogo:hover {
+    background-color: rgb(8, 253, 216);
 }
